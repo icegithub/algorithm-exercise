@@ -24,7 +24,7 @@ typedef struct {
 /*
  * create a list 
 */
-status createList( linkList *l );
+/* status createList( linkList *l ); */
 
 /*
  * init a list 
