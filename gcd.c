@@ -17,6 +17,8 @@ void factorizate(int , int []);
 void factorizateAlgorithm( int, int );
 int  prime[100];
 
+int step[3] = {0};
+
 //Change Position and make sure m is biger than n
 void
 changePosition(int *m, int *n)
@@ -43,14 +45,15 @@ euclidAlgorithm(int m, int n)
           exit( 1 );
      }
      else {
-          r = m % n;
-          while(r != 0) {
-               n = r;
-               m = n;
+
+          do{
                r = m % n;
-               if(r == 0)
-                    printf("gcd=%d\n", m);
-          }
+               m = n;
+               n = r;
+               step[0]++;
+          }while( n != 0 );
+          printf("gcd=%d\n", m);
+ 
      }
 }
 
@@ -71,8 +74,10 @@ continuousDivisible(int m, int n)
                printf("gcd=%d\n", min);
                break;
           }
-          else
+          else {
+               step[1]++;
                continue;
+          }
      }
 }
 
@@ -90,6 +95,7 @@ factorizate(int m, int vector[])
      int i;
      int j = 0;
      for (i=2; i<=m; i++) {
+          step[3]++;
           if(m%i == 0) {
                vector[j] = i;
                m /= i;
@@ -110,6 +116,7 @@ findSameNumber( int m_vector[], int n_vector[], int common[] )
      {
           while (n_vector[j] != '\0')
           {
+               step[3]++;
                if (m_vector[i] == n_vector[j])
                {
                     common[i] = m_vector[i];
@@ -162,15 +169,24 @@ factorizateAlgorithm(int m, int n)
 int main()
 {
      int m, n;
-     printf ("Please input two number( blank ):");
-     scanf("%d", &m);
-     scanf("%d", &n);
-     changePosition(&m, &n);
-     printf ("Euclid Algorithm:\n");
-     euclidAlgorithm(m, n);
-     printf ("Continuous Divisible Algorithm:\n");
-     continuousDivisible(m,n);
-     printf ("Factorizate Algorithm:\n");
-     factorizateAlgorithm(m, n);
+     /* printf ("Please input two number( blank ):"); */
+     /* scanf("%d", &m); */
+     /* scanf("%d", &n); */
+     /* changePosition(&m, &n); */
+
+
+     /* printf ("\nEuclid Algorithm:\n"); */
+     /* euclidAlgorithm(457382, 89832); */
+     /* printf ("The Euclid ALgorithm Step:%d\n", step[0]); */
+
+
+     /* printf ("\nContinuous Divisible Algorithm:\n"); */
+     /* continuousDivisible(54930, 42021); */
+     /* printf ("The Continuous ALgorithm Step:%d\n", step[1]); */
+
+
+     printf ("\nFactorizate Algorithm:\n");
+     factorizateAlgorithm(54930, 42021);
+     printf ("The Factorizate ALgorithm Step:%d\n", step[3]);
      return 0;
 }
