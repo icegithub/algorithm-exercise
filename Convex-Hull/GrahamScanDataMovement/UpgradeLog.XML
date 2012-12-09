@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GrahamScanDataMovement">
+</Property><Property Name="Solution File" Value="D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement.sln">
+</Property><Property Name="Date" Value="2012年11月9日">
+</Property><Property Name="Time" Value="19:00">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GrahamScanDataMovement.sln" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement.sln">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\GrahamScanDataMovement.csproj" Description="Project file successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\GrahamScanDataMovement.csproj">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\AboutBox1.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\AboutBox1.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\AboutBox1.Designer.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\AboutBox1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\MainForm.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\MainForm.Designer.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Program.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Program.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Properties\Settings.settings" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\AboutBox1.resx" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\AboutBox1.resx">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\MainForm.resx" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\Properties\Resources.resx" Description="File successfully backed up as D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\Backup\GrahamScanDataMovement\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\GrahamScanDataMovement.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\GrahamScanDataMovement.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GrahamScanDataMovement.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GrahamScanDataMovement.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GrahamScanDataMovement" Source="GrahamScanDataMovement\GrahamScanDataMovement.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

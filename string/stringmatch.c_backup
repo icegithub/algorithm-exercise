@@ -1,0 +1,116 @@
+#include <stdio.h>
+#define LENGTH 100
+#define TLEN 26
+
+typedef struct {
+  char a[LENGTH];
+  int length;
+}string;
+
+string createString()
+{
+  string s;
+  int i = 0;
+  scanf("%s", &s.a);
+  while(s.a[i] != '\0') i++;
+  s.length = i;
+  return s;
+}
+
+int bruteForceStringMatch(string t, string p)
+{
+  int position, i, j;
+  int n = t.length;
+  int m = p.length;
+  for(i = 0; i<n; i++) {
+    j = 0;
+    while(j < m && p.a[j]==t.a[i+j]) {
+      j += 1;
+    }
+    if(j == m)
+      return i;
+  }
+  return -1;
+}
+
+void shiftTable(string p, int* work)
+{
+  //int *work;
+  int i = 0, j = 0, length = 0;
+  int m = p.length;
+  int table[TLEN];
+  for(i=0; i<TLEN; i++)
+    table[i] = m;
+  for(j=0; j<TLEN; j++) {
+  printf("%3d ", table[j]);
+    //length++;
+  }
+  printf("\n");
+  printf("m: %d, p: %s\n", m, p.a);
+  for(j=0; j<TLEN; j++) {
+    table[ (p.a[j]-'a') ] = m-1-j;
+    //length++;
+  }
+  table[22] = m;
+  //length = j;
+  for(j=0; j<TLEN; j++) {
+      printf("%4d ", table[j]);
+  }
+      printf("\nShift Table End Here. And now return!\n");
+  work = table;
+  //return work;
+}
+
+int horspoolMatching(string t, string p)
+{
+  //int *table=(int *)malloc(sizeof(int)*26);
+  int *table = NULL;
+  int m = p.length, n = t.length;
+  int i, k, j = 0;
+  i = m - 1;
+  printf("\nGet shift table\n");
+  shiftTable(p, table);
+  printf("\nGet shift table end\n");
+  for(j=0; j<TLEN; j++) {
+      printf("%3d", *(table+j));
+  }
+  printf("\nPrint end!\n");
+
+  while(i<=n-1) {
+    k = 0;
+    while(k<=m-1 && p.a[m-1-k]==t.a[i-k]) {
+      k += 1;
+    }
+    if(k == m)
+      return i-m+1;
+    else
+      i = i + *(table+i);
+  }
+  return -1;
+}
+
+int main()
+{
+  string t, p;
+  int ret;
+  printf("Please input t:\n");
+  t = createString();
+  /* printf("t=%s\n", t.a); */
+  /* printf("t length=%d\n", t.length); */
+
+  printf("Please input p:\n");
+  p = createString();
+  /* printf("p=%s\n", p.a); */
+  /* printf("p length=%d\n", p.length); */
+
+  /* ret = bruteForceStringMatch(t, p); */
+  ret = horspoolMatching(t, p);
+  if(-1 == ret) {
+    printf("Don't match!\n");
+  }
+  else {
+    printf("Match, the start position is %d\n", ret+1);
+  }
+
+  return 0;
+}

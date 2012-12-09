@@ -1,0 +1,10 @@
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\bin\Debug\GrahamScanDataMovement.exe
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\bin\Debug\GrahamScanDataMovement.pdb
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\ResolveAssemblyReference.cache
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\GrahamScanDataMovement.AboutBox1.resources
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\GrahamScanDataMovement.MainForm.resources
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\GrahamScanDataMovement.Properties.Resources.resources
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\ResGen.read.1.tlog
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\ResGen.write.1.tlog
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\GrahamScanDataMovement.exe
+D:\Codes\Algorithm\Convex-Hull\GrahamScanDataMovement\GrahamScanDataMovement\obj\Debug\GrahamScanDataMovement.pdb
