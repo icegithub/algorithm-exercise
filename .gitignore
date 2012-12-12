@@ -11,6 +11,6 @@
 *.la
 *.a
 
-##
+# Compiled by gcc in ubuntu and windows7
 *.exe
 *.out
